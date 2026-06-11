@@ -2,7 +2,7 @@ import machine
 import utime
 
 # --- INSTELLINGEN ---
-GELE_DREMPEL    = 12     # Bij hoeveel personen wordt de status GEEL?
+GELE_DREMPEL    = 10     # Bij hoeveel personen wordt de status GEEL?
 RODE_DREMPEL    = 20     # Bij hoeveel personen wordt de status ROOD?
 BOOTJE_INTERVAL = 32     # Hoeveel seconden tussen twee bootjes?
 VERSCHIL_CM     = 15     # Hoeveel cm dichter dan normaal = iemand gedetecteerd?
