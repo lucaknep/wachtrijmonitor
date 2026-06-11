@@ -6,7 +6,7 @@ GELE_DREMPEL    = 10     # Bij hoeveel personen wordt de status GEEL?
 RODE_DREMPEL    = 20     # Bij hoeveel personen wordt de status ROOD?
 BOOTJE_INTERVAL = 32     # Hoeveel seconden tussen twee bootjes?
 VERSCHIL_CM     = 15     # Hoeveel cm dichter dan normaal = iemand gedetecteerd?
-DEBOUNCE_MS     = 2000   # Hoelang wachten na een detectie? (voorkomt dubbele tellingen)
+DEBOUNCE_MS     = 1500   # Hoelang wachten na een detectie? (voorkomt dubbele tellingen)
 
 # --- PINNEN ---
 trig      = machine.Pin(1,  machine.Pin.OUT)
